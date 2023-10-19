@@ -1,4 +1,5 @@
-import { example } from './dataFunctions.js';
+import { clasifFilter } from './dataFunctions.js';
+import { fortalecFilter } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -7,37 +8,62 @@ const container= document.querySelector("#root");
 container.innerHTML= renderItems(data);
 
 
+const selectFilter = document.getElementById("select-filter");
+let containerClasificacion = document.querySelector("#root");
 
+selectFilter.addEventListener('change', function () {
+    const nuevosDatos = data.filter(clasifFilter);
+    const resultadoClasificación = document.createElement('ul');
 
-/*document.addEventListener('DOMContentLoaded', function () {
-    const dataRoot = document.getElementById('dataRoot');
-    const filterSelect = document.getElementById('select-filter');
-
-    // Datos de ejemplo
-const data = [
-    { name: 'Personaje 1', gender: 'Femenino', specialty: 'Fuerza', planet: 'Tatooine' },
-    { name: 'Personaje 2', gender: 'Masculino', specialty: 'Piloto', planet: 'Tatooine' },
-    { name: 'Personaje 3', gender: 'Femenino', specialty: 'Espía', planet: 'Alderaan' },
-      // Otros datos
-    ];
-
-    // Función para mostrar los datos según la opción seleccionada
-function displayData(selectedOption) {
-    dataRoot.innerHTML = '';
-    data.forEach(item => {
-        const value = item[selectedOption];
-        const card = document.createElement('div');
-        card.textContent = `${item.name} - ${selectedOption}: ${value}`;
-        dataRoot.appendChild(card);
-    });
+    nuevosDatos.forEach(element => {
+    const liItem = document.createElement('li');
+    const imagen = document.createElement('img');
+    
+    liItem.appendChild(imagen);
+    for (let key in element) {
+        if (element.hasOwnProperty(key)) {
+        imagen.src= element.imageUrl;
+        const divItem = document.createElement('div');
+        divItem.textContent = `${key}: ${element[key]}`;
+        liItem.appendChild(divItem, imagen);
+        }
     }
-  
-    // Manejar el cambio de la opción de filtrado
-    filterSelect.addEventListener('change', function () {
-      const selectedOption = filterSelect.value;
-      displayData(selectedOption);
+
+    resultadoClasificación.appendChild(liItem);
     });
-  
-    // Mostrar todos los datos al principio
-    displayData(filterSelect.value);
-  });*/
+
+    // Reemplazar el contenido actual del contenedor con el resultado filtrado
+    containerClasificacion.innerHTML = '';
+    containerClasificacion.appendChild(resultadoClasificación);
+});
+
+
+
+const selectFilter2 = document.getElementById("select-filter");
+let containerFortalec = document.querySelector("#root");
+
+selectFilter2.addEventListener('change', function () {
+    const nuevosDatos2 = data.filter(fortalecFilter);
+    const resultadoFortalec = document.createElement('ul');
+
+    nuevosDatos2.forEach(element => {
+    const liItem = document.createElement('li');
+    const imagen = document.createElement('img');
+    
+    liItem.appendChild(imagen);
+    for (let key in element) {
+        if (element.hasOwnProperty(key)) {
+        imagen.src= element.imageUrl;
+        const divItem = document.createElement('div');
+        divItem.textContent = `${key}: ${element[key]}`;
+        liItem.appendChild(divItem, imagen);
+        }
+    }
+
+    resultadoFortalec.appendChild(liItem);
+    });
+
+    // Reemplazar el contenido actual del contenedor con el resultado filtrado
+    containerFortalec.innerHTML = '';
+    containerFortalec.appendChild(resultadoFortalec);
+});

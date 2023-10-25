@@ -3,35 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
 
   <header>
-    <h1>DATAVERSE</h1>
-    <link rel="stylesheet" href="style.css" />
+    <h1>PLANTAS MEDICINALES</h1>
   </header>
 
-  <body>
-    <h1>Hola!m</h1> 
-    <script src="main.js" type="module"></script>
-
-    
-    <label id="filter-type">  
-      <select data-testid="select-filter" name="type" id="select-filter">
-        <option value="Genero">Género</option>
-        <option value="Especialidad">Especialidad</option>
-        <option value="Planeta proveniente">Planeta proveniente</option>
+  <body> 
+    <label class="filter"> <!--cambiar la estructura a la que pide el readme-->
+      <select id="select-filter" name="Clasificacion">
+        <option value="">Todos los productos</option>
+        <option value="antiácida">Antiácida</option>
+        <option value="fortalecedora">Fortalecedora</option>
       </select>
     </label>
-    <label id="sorting">
-      <select data-testid="select-sort" name="alph">
-        <option value="desc">A-Z</option>
+    <label id="sortng">
+      <select data-testid="select-sort" name="alph" id="sorting">
+        <option value="desc">A-Z</option> 
         <option value="asc">Z-A</option>
       </select>
     </label>
-  
-  <button data-testid="button-clear"></button>
-  <div id="root"><!--en este div se van a crear los elementos HTML desde el archivo main-->
+  <button data-testid="button-clear">clear</button>
+
+  <div id="root"> <!--en este div se van a crear los elementos HTML desde el archivo main-->
   </div> 
+  <script src="main.js" type="module"></script>
   </body>
 </html>

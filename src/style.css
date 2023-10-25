@@ -1,12 +1,84 @@
-*{
-    margin: 2px;
-    padding: 3px;
+*::after, *::before{
+    margin: 0px;
+    padding: 0px;
 }
+
 body {
-   
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Esto centra verticalmente el contenido en la ventana */
-    margin: 0; /* Elimina el margen predeterminado del cuerpo */
-    background-color: #db9696; /* Color de fondo para la página */
+   background-color: #dcdca4;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
+
+.container {
+    width: 90%; /*para que sea responsive*/
+    margin: 20px auto;
+    max-width: 1200px;
+    position: relative;
+}
+.tarjeta {
+  
+  background-color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 15px; /* Bordes redondeados */
+  display: flexbox; /*con esto la pantalla se ajusta para ser responsive*/
+  cursor: default;
+  transition: all 400ms ease; /*es la transición de la tarjeta cuando se coloca el cursor sobre ella*/
+  }
+
+.tarjeta:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+
+.tarjeta img{ /*código de la imagen*/
+    
+    display:block; /*para que la imagen sea manipulable al momento de que la tarjeta se modifique(responsive)*/
+    width: 100%; /*para que la imagen se ajuste al ancho de la tarjeta en ese porcentaje*/ 
+    border-radius: 8px 8px 0 0; 
+
+}
+
+@media (min-width: 1020px) {
+    .container{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px
+    }
+    .tarjeta{
+        margin:10;
+        display:flex;
+        flex-direction:column;
+        flex-grow: 1px;
+        
+
+        
+    }
+    
+}
+
+
+header {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    position: relative;
+    
+}
+
+h2 {
+    background-color: #472d53;
+    color: rgb(225, 221, 215);
+    display:block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+

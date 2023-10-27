@@ -62,10 +62,14 @@ export default [
     "DescripcionCorta": "Herbolaria tradicional mexicana",
     "Descripcion": "La Tlanchalagua es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado para aliviar afecciones gastrointestinales y su capacidad para ayudar en la digestión. Sus propiedades medicinales la hacen valiosa en la medicina tradicional mexicana.",
     "imageUrl": "./images/4.tlanchalagua.jpg",
-    "OrganoBeneficiado": "Sistema digestivo",
-    "Clasificacion": "emenagoga",
-    "EstadoProductor": "Oaxaca"
-    
+    "facts": {
+      "OrganoBeneficiado": "Sistema digestivo",
+      "Clasificacion": "emenagoga",
+      "EstadoProductor": "Oaxaca"
+    },
+    "extraInfo": {
+      "imageSource": "/src/images/3.yacon.jpg"
+    }
   },
   {
     "planta": "Damiana",

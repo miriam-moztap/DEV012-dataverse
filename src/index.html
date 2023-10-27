@@ -11,19 +11,19 @@
   </header>
 
   <body> 
-    <label class="filter"> <!--cambiar la estructura a la que pide el readme-->
-      <select id="select-filter" name="Clasificacion">
+    <label class="filter">Clasificación</label> <!--cambiar la estructura a la que pide el readme-->
+      <select name="select-filter">
         <option value="">Todos los productos</option>
         <option value="antiácida">Antiácida</option>
         <option value="fortalecedora">Fortalecedora</option>
       </select>
-    </label>
-    <label id="sortng">
-      <select data-testid="select-sort" name="alph" id="sorting">
+    
+    <label name="sorting">Asc-Desc</label>
+      <select data-testid="select-sort" name="sorting" id="sorting">
         <option value="desc">A-Z</option> 
         <option value="asc">Z-A</option>
       </select>
-    </label>
+    
   <button data-testid="button-clear">clear</button>
 
   <div id="root"> <!--en este div se van a crear los elementos HTML desde el archivo main-->

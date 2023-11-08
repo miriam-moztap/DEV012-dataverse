@@ -1,40 +1,17 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
 //Función para seleccionar los filtros
-
-function renderElement(element){
-  if(element){
-    let elementRendered = `<li class="tarjeta">
-    <dl itemscope itemtype="Plantas Medicinales">
-      <link rel="stylesheet" href="style.css"/>
-      <img src="${element.imageUrl}"/ class=image /><br >
-      <dt></dt>
-      <dd itemprop="planta" style="display: inline;"><h2>${element.planta}</h2></dd><br />
-      <dt style= "display: inline;">id:</dt><dd itemprop="id" style="display: inline;">${element.id}</dd><br />
-      <dt style= "display: inline;"><strong>Nombre común:</strong></dt><dd itemprop="Nombre común" style= "display: inline;">${element.NombreComun}</dd><br />
-      <dt style= "display: inline;">Nombre científico:</dt><dd itemprop="Nombre científico" style= "display: inline;">${element.NombreCientifico}</dd><br />
-      <dt style= "display: inline;">Descripción corta:</dt><dd itemprop="Descripción corta" style= "display: inline;">${element.DescripcionCorta}</dd><br />
-      <dt style= "display: inline;">Descripción:</dt><dd itemprop="Descripción" style= "display: inline;">${element.Descripcion}</dd><br />
-      <dt style= "display: inline;">Órgano beneficiado:</dt><dd itemprop="Órgano beneficiado" style= "display: inline;">${element.OrganoBeneficiado}</dd><br /  >
-      <dt style= "display: inline;">Clasificación:</dt><dd itemprop="Clasificación" style= "display: inline;">${element.Clasificacion}</dd><br />
-      <dt style= "display: inline;">Estado productor:</dt><dd itemprop="Estado productor" style= "display: inline;">${element.EstadoProductor}</dd><br />
-    </dl>
-  </li>` 
-  return elementRendered;
-  }
-  
-}
 export function filtrarDatos(data, selectedValue) {  
-  for(const element of data){
-    if (selectedValue) {
+  
+  if (selectedValue === "Todos los productos") {
+    return data;
+  }
+  else if (selectedValue !== "Todos los productos"){
       
-      let filteredData = data.filter(element => element.Clasificacion === selectedValue, renderElement(element));
-      return filteredData;
-    
-    } else {
-      return data;
-    }
-}}
+    const datosFiltrados=data.filter(element => element.Clasificacion === selectedValue);
+    return datosFiltrados;
+  }
+}
 
 export function dataOrdenadaAZ(data){
   const dataCopy=[...data]; //función de propagación ayuda a copiar los datos de una matriz 

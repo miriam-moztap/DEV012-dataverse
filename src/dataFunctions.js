@@ -3,14 +3,14 @@
 //Función para seleccionar los filtros
 export function filtrarDatos(data, selectedValue) {  
   
-    if (selectedValue) {
+  if (selectedValue === "Todos los productos") {
+    return data;
+  }
+  else if (selectedValue !== "Todos los productos"){
       
-      let datosFiltrados=data.filter(element => element.Clasificacion === selectedValue);
-      return datosFiltrados;
-    
-    } else {
-      return data;
-    }
+    const datosFiltrados=data.filter(element => element.Clasificacion === selectedValue);
+    return datosFiltrados;
+  }
 }
 
 export function dataOrdenadaAZ(data){

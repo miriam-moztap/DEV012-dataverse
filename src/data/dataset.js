@@ -4,13 +4,13 @@ export default [
     "id":1,
     "NombreComun": "Copalchi",
     "NombreCientifico": "Croton ciliatoglandulifer",
-    "Clasificacion": "antidiabética",
+    "Clasificacion": "Antidiabética",
     "DescripcionCorta": "Antidiabético natural",
-    "Descripcion": "El Copalchi es una planta endémica de México conocida por sus propiedades antidiabéticas. Sus hojas se utilizan en infusiones tradicionales para ayudar a controlar los niveles de azúcar en la sangre. También se ha empleado en el tratamiento de problemas gastrointestinales. Sus compuestos activos pueden contribuir a la regulación de la glucosa en pacientes con diabetes.",
+    "Descripcion": "El Copalchi es una planta endémica de México conocida por sus propiedades Antidiabéticas. Sus hojas se utilizan en infusiones tradicionales para ayudar a controlar los niveles de azúcar en la sangre. También se ha empleado en el tratamiento de problemas gastrointestinales. Sus compuestos activos pueden contribuir a la regulación de la glucosa en pacientes con diabetes.",
     "imageUrl": "./images/copachi.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema endocrino",
-      "Clasificacion": "antidiabética",
+      "Clasificacion": "Antidiabética",
       "EstadoProductor": "Sonora"
     },
     "extraInfo": {
@@ -22,13 +22,13 @@ export default [
     "id": "2",
     "NombreComun": "Nopal",
     "NombreCientifico": "Opuntia ficus-indica",
-    "Clasificacion": "antidiabética",
+    "Clasificacion": "Antidiabética",
     "DescripcionCorta": "Superalimento mexicano",
     "Descripcion": "El Nopal es un cactus endémico de México y es considerado un superalimento. Sus pads son ricos en fibras y antioxidantes, y se ha utilizado tradicionalmente para controlar los niveles de azúcar en la sangre y mejorar la salud digestiva. Además, se cree que tiene propiedades antiinflamatorias y puede ayudar en la gestión de la diabetes.",
     "imageUrl": "./images/2.nopal.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "antidiabética",
+      "Clasificacion": "Antidiabética",
       "EstadoProductor": "Zacatecas"
     },
     "extraInfo": {
@@ -40,13 +40,13 @@ export default [
     "id": "3",
     "NombreComun": "Yacon",
     "NombreCientifico": "Smallanthus sonchifolius",
-    "Clasificacion": "antidiabética",
+    "Clasificacion": "Antidiabética",
     "DescripcionCorta": "Endulzante natural y regulador glucémico",
     "Descripcion": "El Yacon es una planta endémica de México conocida por sus raíces dulces y bajas en calorías. Además de ser un endulzante natural, se ha estudiado por sus posibles efectos en la regulación de la glucosa en la sangre y la pérdida de peso. Sus fructooligosacáridos pueden beneficiar a las personas con diabetes y promover la salud digestiva.",
     "imageUrl": "./images/3.yacon.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "antidiabética",
+      "Clasificacion": "Antidiabética",
       "EstadoProductor": "Puebla"
     },
     "extraInfo": {
@@ -58,13 +58,13 @@ export default [
     "id": "4",
     "NombreComun": "Tlanchalagua",
     "NombreCientifico": "Gochnatia hypoleuca",
-    "Clasificacion": "emenagoga",
+    "Clasificacion": "Emenagoga",
     "DescripcionCorta": "Herbolaria tradicional mexicana",
     "Descripcion": "La Tlanchalagua es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado para aliviar afecciones gastrointestinales y su capacidad para ayudar en la digestión. Sus propiedades medicinales la hacen valiosa en la medicina tradicional mexicana.",
     "imageUrl": "./images/4.tlanchalagua.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "emenagoga",
+      "Clasificacion": "Emenagoga",
       "EstadoProductor": "Oaxaca"
     },
     "extraInfo": {
@@ -76,13 +76,13 @@ export default [
     "id": "5",
     "NombreComun": "Damiana",
     "NombreCientifico": "Turnera diffusa",
-    "Clasificacion": "emenagoga",
+    "Clasificacion": "Emenagoga",
     "DescripcionCorta": "Estimulante y afrodisíaco",
     "Descripcion": "La Damiana es una planta endémica de México conocida por sus propiedades afrodisíacas y estimulantes. Se ha utilizado para aumentar la energía y mejorar la función sexual. Además, se cree que puede tener beneficios para el sistema nervioso.",
     "imageUrl": "./images/5.Turnera diffusa.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema nervioso",
-      "Clasificacion": "emenagoga",
+      "Clasificacion": "Emenagoga",
       "EstadoProductor": "Morelos"
     },
     "extraInfo": {
@@ -94,13 +94,13 @@ export default [
     "id": "6",
     "NombreComun": "Ruda de monte",
     "NombreCientifico": "Ruta chalepensis",
-    "Clasificacion": "emenagoga",
+    "Clasificacion": "Emenagoga",
     "DescripcionCorta": "Planta para el alivio de problemas menstruales",
     "Descripcion": "La Ruda de monte es una planta endémica de México utilizada tradicionalmente para tratar trastornos menstruales y problemas digestivos. Sus propiedades medicinales la hacen valiosa en la medicina tradicional mexicana, especialmente en el alivio de síntomas menstruales como cólicos y irregularidades.",
     "imageUrl": "./images/6.Ruta chalepensis.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema reproductor",
-      "Clasificacion": "emenagoga",
+      "Clasificacion": "Emenagoga",
       "EstadoProductor": "Chiapas"
     },
     "extraInfo": {
@@ -112,13 +112,13 @@ export default [
     "id": "7",
     "NombreComun": "Ipecacuana",
     "NombreCientifico": "Psychotria ipecacuanha",
-    "Clasificacion": "emética",
+    "Clasificacion": "Emética",
     "DescripcionCorta": "Inductor del vómito natural",
-    "Descripcion": "La Ipecacuana es una planta endémica de México que se ha empleado tradicionalmente como emética, es decir, para inducir el vómito. Sus raíces contienen compuestos que provocan el reflejo de vómito y se han utilizado en la medicina tradicional para tratar intoxicaciones y envenenamientos.",
+    "Descripcion": "La Ipecacuana es una planta endémica de México que se ha empleado tradicionalmente como Emética, es decir, para inducir el vómito. Sus raíces contienen compuestos que provocan el reflejo de vómito y se han utilizado en la medicina tradicional para tratar intoxicaciones y envenenamientos.",
     "imageUrl": "./images/7.Psychotria ipecacuanha.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "emética",
+      "Clasificacion": "Emética",
       "EstadoProductor": "Veracruz"
     },
     "extraInfo": {
@@ -130,13 +130,13 @@ export default [
     "id": "8",
     "NombreComun": "Tequexquite",
     "NombreCientifico": "Datisca glomerata",
-    "Clasificacion": "emética",
-    "DDescripcionCorta": "Planta tradicional en la herbolaria mexicana",
+    "Clasificacion": "Emética",
+    "DescripcionCorta": "Planta tradicional en la herbolaria mexicana",
     "Descripcion": "El Tequexquite es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado como emético y para tratar problemas gastrointestinales. Sus propiedades medicinales lo hacen valiosa en la medicina tradicional mexicana.",
     "imageUrl": "./images/8.Datisca glomerata.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "emética",
+      "Clasificacion": "Emética",
       "EstadoProductor": "Chihuahua"
     },
     "extraInfo": {
@@ -148,13 +148,13 @@ export default [
     "id": "9",
     "NombreComun": "Anacahuite",
     "NombreCientifico": "Cordia boissieri",
-    "Clasificacion": "febrífuga",
+    "Clasificacion": "Febrífuga",
     "DescripcionCorta": "Antifebril y antioxidante natural",
     "Descripcion": "El Anacahuite es un árbol endémico de México conocido por sus propiedades antifebriles y antioxidantes. Sus hojas y corteza se han empleado en la medicina tradicional para reducir la fiebre y aliviar afecciones respiratorias. Además, se cree que tiene propiedades antiinflamatorias.",
     "imageUrl": "./images/9.Cordia boissieri.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema respiratorio",
-      "Clasificacion": "febrífuga",
+      "Clasificacion": "Febrífuga",
       "EstadoProductor": "Nuevo León"
     },
     "extraInfo": {
@@ -166,13 +166,13 @@ export default [
     "id": "10",
     "NombreComun": "Chicalote",
     "NombreCientifico": "Argemone mexicana",
-    "Clasificacion": "febrífuga",
+    "Clasificacion": "Febrífuga",
     "DescripcionCorta": "Analgésico y antiinflamatorio natural",
     "Descripcion": "El Chicalote es una planta endémica de México conocida por sus propiedades analgésicas y antiinflamatorias. Sus semillas y aceite se utilizan para aliviar dolores de cabeza y problemas de la piel. Además, se ha empleado en la medicina tradicional mexicana para tratar problemas respiratorios.",
     "imageUrl": "./images/10.Argemone mexicana.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema nervioso",
-      "Clasificacion": "febrífuga",
+      "Clasificacion": "Febrífuga",
       "EstadoProductor": "Guerrero"
     },
     "extraInfo": {
@@ -184,13 +184,13 @@ export default [
     "id": "11",
     "NombreComun": "Palo de Agua",
     "NombreCientifico": "Nolina recurvata",
-    "Clasificacion": "antiácida",
+    "Clasificacion": "Antiácida",
     "DescripcionCorta": "Planta con propiedades digestivas",
     "Descripcion": "El Palo de Agua es una planta endémica de México que se ha utilizado en la medicina tradicional para tratar problemas digestivos y afecciones de la piel. Sus propiedades medicinales pueden ayudar a aliviar la acidez estomacal y las irritaciones dérmicas.",
     "imageUrl": "./images/11.Nolina recurvata.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "antiácida",
+      "Clasificacion": "Antiácida",
       "EstadoProductor": "Yucatán"
     },
     "extraInfo": {
@@ -202,12 +202,13 @@ export default [
     "id": "12",
     "NombreComun": "Salvia",
     "NombreCientifico": "Salvia mexicana",
-    "Clasificacion": "antiácida",
-    "Descripcion_corta": "Planta con propiedades digestivas",
+    "Clasificacion": "Antiácida",
+    "DescripcionCorta": "Planta con propiedades digestivas",
     "Descripcion": "La Salvia es una planta endémica de México que se ha utilizado en la medicina tradicional para aliviar problemas gastrointestinales y como agente antiácido. Sus hojas contienen compuestos beneficiosos para la digestión y el alivio de la acidez estomacal.",
     "imageUrl": "./images/12.Salvia mexicana.jpg",
     "facts": {
-      "OrganoBeneficiadoo": "Sistema digestivo",
+      "OrganoBeneficiado": "Sistema digestivo",
+      "Clasificacion": "Antiácida",
       "EstadoProductor": "Puebla"
     },
     "extraInfo": {
@@ -260,7 +261,7 @@ export default [
     "Descripcion": "El Té de Limón es una planta endémica de México que se utiliza en infusiones para estimular el sistema nervioso y mejorar la digestión. Sus propiedades relajantes y digestivas pueden ayudar a aliviar el estrés y malestares gastrointestinales.",
     "imageUrl": "./images/15. Aloysia citriodora.jpg",
     "facts": {
-      "OrganoBeneficiadoo": "Sistema nervioso",
+      "OrganoBeneficiado": "Sistema nervioso",
       "Clasificacion": "emoliente",
       "EstadoProductor": "Michoacán"
     },
@@ -273,13 +274,13 @@ export default [
     "id": "16",
     "NombreComun": "Chicalotl",
     "NombreCientifico": "Gnaphalium spp.",
-    "Clasificacion":"antiácida",
+    "Clasificacion":"Antiácida",
     "DescripcionCorta": "Planta para problemas gastrointestinales",
     "Descripcion": "El Chicalotl es una planta endémica de México que se ha empleado en la medicina tradicional para aliviar problemas gastrointestinales. Sus propiedades medicinales pueden contribuir a reducir la acidez estomacal y aliviar malestares digestivos.",
     "imageUrl": "./images/16. Gnaphalium spp.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema digestivo",
-      "Clasificacion": "antiácida",
+      "Clasificacion": "Antiácida",
       "EstadoProductor": "Tamaulipas"
     },
     "extraInfo": {
@@ -346,7 +347,7 @@ export default [
     "NombreComun": "Tepezcohuite",
     "NombreCientifico": "Mimosa tenuiflora",
     "Clasificacion": "emoliente",
-    "Descripcion_corta": "Planta cicatrizante y regeneradora de la piel",
+    "DescripcionCorta": "Planta cicatrizante y regeneradora de la piel",
     "Descripcion": "El Tepezcohuite es una planta endémica de México conocida por sus propiedades cicatrizantes y regeneradoras de la piel. Se ha utilizado en el tratamiento de heridas, quemaduras y afecciones dermatológicas. Sus compuestos beneficiosos promueven la curación y la salud de la piel.",
     "imageUrl": "./images/20. Mimosa tenuiflora.jpg",
     "facts": {
@@ -363,13 +364,13 @@ export default [
     "id": "21",
     "NombreComun": "Cempoalxóchitl",
     "NombreCientifico": "Tagetes erecta",
-    "Clasificacion": "febrífuga",
-    "DDescripcion_corta": "Planta tradicional en la medicina azteca",
+    "Clasificacion": "Febrífuga",
+    "DescripcionCorta": "Planta tradicional en la medicina azteca",
     "Descripcion": "El Cempoalxóchitl es una planta endémica de México con un largo historial en la medicina azteca. Se ha empleado para tratar afecciones respiratorias y se le atribuyen propiedades medicinales como expectorante. Sus flores amarillas se han utilizado en infusiones y ungüentos.",
     "imageUrl": "./images/21. Tagetes erecta.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema respiratorio",
-      "Clasificacion": "febrífuga",
+      "Clasificacion": "Febrífuga",
       "EstadoProductor": "Tlaxcala"
     },
     "extraInfo": {
@@ -381,13 +382,13 @@ export default [
     "id": "22",
     "NombreComun": "Cola de Caballo",
     "NombreCientifico": "Equisetum giganteum",
-    "Clasificacion": "fortalecedora",
-    "Descripcion_corta": "Planta diurética y fortalecedora de huesos",
+    "Clasificacion": "Antiácida",
+    "DescripcionCorta": "Planta diurética y fortalecedora de huesos",
     "Descripcion": "La Cola de Caballo es una planta endémica de México conocida por sus propiedades diuréticas y su capacidad para fortalecer huesos y tejidos. Se ha empleado en la medicina tradicional para promover la salud del sistema urinario y como tónico para las uñas, cabello y huesos.",
     "imageUrl": "./images/22. Equisetum giganteum.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema urinario",
-      "Clasificacion": "fortalecedora",
+      "Clasificacion": "Fortalecedora",
       "EstadoProductor": "Hidalgo"
     },
     "extraInfo": {
@@ -400,7 +401,7 @@ export default [
     "NombreComun": "Zapote blanco",
     "NombreCientifico": "Casimiroa edulis",
     "Clasificacion": "nutricional",
-    "Descripcion_corta": "Fruta tradicional en la dieta mexicana",
+    "DescripcionCorta": "Fruta tradicional en la dieta mexicana",
     "Descripcion": "El Zapote blanco es una fruta endémica de México que ha sido parte de la dieta tradicional mexicana durante siglos. Es rico en nutrientes y se ha empleado en la medicina tradicional para mejorar la digestión y la salud del sistema inmunológico. Además, se cree que tiene propiedades antioxidantes.",
     "imageUrl": "./images/23. Casimiroa edulis.jpg",
     "facts": {
@@ -417,13 +418,13 @@ export default [
     "id": "24",
     "NombreComun": "Manzanilla",
     "NombreCientifico": "Matricaria chamomilla",
-    "Clasificacion": "antiácida",
-    "Descripcion_corta": "Hierba para aliviar el estrés y problemas digestivos",
+    "Clasificacion": "Antiácida",
+    "DescripcionCorta": "Hierba para aliviar el estrés y problemas digestivos",
     "Descripcion": "La Manzanilla es una planta endémica de México conocida por sus propiedades relajantes y digestivas. Sus flores se utilizan en infusiones tradicionales para aliviar el estrés, reducir la ansiedad y promover un sueño reparador. Además, se ha empleado para tratar problemas gastrointestinales, como el malestar estomacal y la indigestión, gracias a sus propiedades antiinflamatorias y calmantes.",
     "imageUrl": "./images/24. manzanilla.jpg",
     "facts": {
       "OrganoBeneficiado": "Sistema nervioso y digestivo",
-      "Clasificacion": "antiácida",
+      "Clasificacion": "Antiácida",
       "EstadoProductor": "Tlaxcala"
     },
     "extraInfo": {

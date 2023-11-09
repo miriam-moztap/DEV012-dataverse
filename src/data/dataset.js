@@ -382,7 +382,7 @@ export default [
     "id": "22",
     "NombreComun": "Cola de Caballo",
     "NombreCientifico": "Equisetum giganteum",
-    "Clasificacion": "Antiácida",
+    "Clasificacion": "Fortalecedora",
     "DescripcionCorta": "Planta diurética y fortalecedora de huesos",
     "Descripcion": "La Cola de Caballo es una planta endémica de México conocida por sus propiedades diuréticas y su capacidad para fortalecer huesos y tejidos. Se ha empleado en la medicina tradicional para promover la salud del sistema urinario y como tónico para las uñas, cabello y huesos.",
     "imageUrl": "./images/22. Equisetum giganteum.jpg",

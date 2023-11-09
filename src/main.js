@@ -29,6 +29,16 @@ selectFilter.addEventListener  ('change', (event)=>{
   });
 })
 
+selectSort.addEventListener('change', function(event) {
+let sortedData=event.target.value; 
+    if (selectSort.value === "desc") {
+      sortedData = dataOrdenadaAZ(dataManipulada); // Utiliza la función de ordenamiento
+    } else if (selectSort.value === "asc") {
+      sortedData = dataOrdenadaZA(dataManipulada); // Utiliza la función de ordenamiento
+    } 
+    container.innerHTML=renderItems(sortedData);
+
+  });
 
 
 //Con esta modificación, solo se crea un elemento ul una vez, y los elementos li se agregan a ese elemento ul en lugar de crear múltiples elementos ul. Además, se utiliza selectedSort.innerHTML = ''; para limpiar el contenido del elemento ul en cada cambio, de modo que se actualice adecuadamente con la nueva información.

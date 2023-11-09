@@ -15,7 +15,7 @@ header {
       
 }
 body {
-   background:url('./images/fondo9.jpg')no-repeat center center fixed;
+   background:url('./images/fondo7.jpg')no-repeat center center fixed;
    background-size: cover;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -68,52 +68,60 @@ body {
         display:flex;
         flex-direction:column;
         flex-grow: 1px;
-        
-
-        
     }
-    
 }
+
 
 
 header {
     text-align: center;
     width: 100%;
-    display: flex;
+    display: block;
     max-width: 500px;
     position: relative;
-    
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:bisque;
+}
+
+@media (max-width: 768px) {
+    header {
+    padding: 10px;
+    font-size: 16px;
+    }
 }
 
 h2 {
-    background-color: rgb(255, 228, 225, 0.3);
-    color: rgb(225, 221, 215);
+    background-color: rgba(246, 136, 73, 0.3);
+    color: rgb(220, 217, 214);
     display:block;
     text-align: center;
     padding: 7px;
     margin-top: 1px;
     border-radius: 8px;
+    
 }
 h3 {
     
-    color: #2e2f2e;
-    font-family: 'Times New Roman', Times, serif;
+    color: #f7f7e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: #ab8db9;
     position: relative;
+    font-size: 19px;
 }
 
 h4 {
     
-    color: #2e2f2e;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 13px;
+    color: #d3d3ce;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    position: relative;
     
 }
 
 
-h2, h3, h4 {
+h3, h4 {
     margin: 0px; /* Elimina el margen alrededor de los elementos h2 y h4 */
     display: inline; /* Hace que los elementos h2 y h4 se muestren en la misma línea */
 }
@@ -123,4 +131,17 @@ dt, dd {
     margin-top: 10px;
     margin-bottom: 0px;
     /* Hace que los elementos dt y dd se muestren en la misma línea */
+}
+
+button[data-testid="button-clear"]{
+  background: rgb(188, 163, 108);
+  border:7px solid rgb(188, 163, 108);
+  position: relative;
+}
+
+.tarjeta img {
+    width: 320px; /* Tamaño fijo en píxeles */
+    height: 285px;
+    border-radius: 5%;
+    
 }

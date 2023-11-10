@@ -1,23 +1,28 @@
 *{
-  margin: 2px;
-  padding: 3px;
+    margin: 2px;
+    padding: 3px;
 }
 header {
-    
-        margin: auto;
-        display: block;
-        top: 0; /* Ajusta la posición superior según tus necesidades */
-        left: auto; /* Ajusta la posición izquierda según tus necesidades */
-        margin-bottom: 10px;;
-        padding: 10px; /* Agrega relleno si es necesario */
-        z-index: 1000; /* Controla el apilamiento en caso de superposición con otros elementos */
-        /* Añade otros estilos como colores, márgenes, etc. según tus preferencias */
-      
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:bisque;
+    padding: 10px; /* Agrega relleno si es necesario */
 }
+@media (max-width: 768px) {
+    header {
+    padding: 10px;
+    font-size: 16px;
+    }
+}
+
 body {
-   background:url('./images/fondo7.jpg')no-repeat center center fixed;
-   background-size: cover;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:url('./images/fondo7.jpg')no-repeat center center fixed;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -68,26 +73,6 @@ body {
         display:flex;
         flex-direction:column;
         flex-grow: 1px;
-    }
-}
-
-
-
-header {
-    text-align: center;
-    width: 100%;
-    display: block;
-    max-width: 500px;
-    position: relative;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:bisque;
-}
-
-@media (max-width: 768px) {
-    header {
-    padding: 10px;
-    font-size: 16px;
     }
 }
 
@@ -145,3 +130,4 @@ button[data-testid="button-clear"]{
     border-radius: 5%;
     
 }
+

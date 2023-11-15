@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <header>
+    <h1>PLANTAS MEDICINALES</h1>
+  </header>
+
+  <body> 
+    <label class="filter">Clasificación</label> <!--cambiar la estructura a la que pide el readme-->
+      <select name="select-filter">
+        <option value="Todos los productos">Todos los productos</option>
+        <option value="Antiácida">Antiácida</option>
+        <option value="fortalecedora">Fortalecedora</option>
+        <option value="Antidiabética">Antidiabética</option>
+        <option value="Emenagoga">Emenagoga</option>
+        <option value="Emética">Emética</option>
+        <option value="Febrífuga">Febrífuga</option>
+
+      </select>
+    
+    <label name="sorting">Asc-Desc</label>
+      <select data-testid="select-sort" name="sorting" id="sorting">
+        <option value="desc">A-Z</option> 
+        <option value="asc">Z-A</option>
+      </select>
+    
+  <button data-testid="button-clear">clear</button>
+
+  <div id="root"> <!--en este div se van a crear los elementos HTML desde el archivo main-->
+  </div> 
+  <script src="main.js" type="module"></script>
+  </body>
+</html>

@@ -8,7 +8,7 @@ export function filtrarDatos(data, selectedValue) {
   }
   else if (selectedValue !== "Todos los productos"){
       
-    const datosFiltrados=data.filter(element => element.Clasificacion === selectedValue);
+    const datosFiltrados=data.filter(element => element.clasificacion === selectedValue);
     return datosFiltrados;
   }
 }

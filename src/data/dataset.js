@@ -1,7 +1,7 @@
 export default [
   {
     "planta":"Copalchi",
-    "id":1,
+    "id":"1",
     "name": "Copalchi",
     "nombreCientifico": "Croton ciliatoglandulifer",
     "clasificacion": "Antidiabética",
@@ -10,8 +10,9 @@ export default [
     "imageUrl": "./images/copachi.jpg",
     "facts": {
       "organoBeneficiado": "Sistema endocrino",
-      "clasificacion": "Antidiabética",
-      "estadoProductor": "Sonora"
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Sonora",
+      "precioKgMxn": 260.00
     },
     "extraInfo": {
       "imageSource": "./images/copachi.jpg"
@@ -28,8 +29,9 @@ export default [
     "imageUrl": "./images/2.nopal.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Antidiabética",
-      "estadoProductor": "Zacatecas"
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Zacatecas",
+      "precioKgMxn": 49.90
     },
     "extraInfo": {
       "imageSource": "/src/images/2.nopal.jpg"
@@ -46,8 +48,9 @@ export default [
     "imageUrl": "./images/3.yacon.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Antidiabética",
-      "estadoProductor": "Puebla"
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 1700.00
     },
     "extraInfo": {
       "imageSource": "/src/images/3.yacon.jpg"
@@ -64,8 +67,9 @@ export default [
     "imageUrl": "./images/4.tlanchalagua.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Emenagoga",
-      "estadoProductor": "Oaxaca"
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
       "imageSource": "/src/images/3.yacon.jpg"
@@ -82,8 +86,9 @@ export default [
     "imageUrl": "./images/5.turneraDiffusa.jpg",
     "facts": {
       "organoBeneficiado": "Sistema nervioso",
-      "clasificacion": "Emenagoga",
-      "estadoProductor": "Morelos"
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Morelos",
+      "precioKgMxn": 640.00
     },
     "extraInfo": {
       "imageSource": "/src/images/5.turneraDiffusa.jpg"
@@ -100,8 +105,9 @@ export default [
     "imageUrl": "./images/6.Ruta chalepensis.jpg",
     "facts": {
       "organoBeneficiado": "Sistema reproductor",
-      "clasificacion": "Emenagoga",
-      "estadoProductor": "Chiapas"
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Chiapas",
+      "precioKgMxn": 160.00
     },
     "extraInfo": {
       "imageSource": "/src/images/6.Ruta chalepensis.jpg"
@@ -118,26 +124,28 @@ export default [
     "imageUrl": "./images/7.Psychotria ipecacuanha.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Emética",
-      "estadoProductor": "Veracruz"
+      "clasificacionPlanta": "Emética",
+      "estadoProductor": "Veracruz",
+      "precioKgMxn": 550.00
     },
     "extraInfo": {
       "imageSource": "/src/images/7.Psychotria ipecacuanhan.jpg"
     }
   },
   {
-    "planta": "Tequexquite",
+    "planta": "Tequesquite",
     "id": "8",
-    "name": "Tequexquite",
+    "name": "Tequesquite",
     "nombreCientifico": "Datisca glomerata",
     "clasificacion": "Emética",
     "shortDescription": "Planta tradicional en la herbolaria mexicana",
-    "description": "El Tequexquite es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado como emético y para tratar problemas gastrointestinales. Sus propiedades medicinales lo hacen valiosa en la medicina tradicional mexicana.",
+    "description": "El Tequesquite es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado como emético y para tratar problemas gastrointestinales. Sus propiedades medicinales lo hacen valiosa en la medicina tradicional mexicana.",
     "imageUrl": "./images/8.Datisca glomerata.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Emética",
-      "estadoProductor": "Chihuahua"
+      "clasificacionPlanta": "Emética",
+      "estadoProductor": "Chihuahua",
+      "precioKgMxn": 160.00
     },
     "extraInfo": {
       "imageSource": "/src/images/8.Datisca glomerata.jpg"
@@ -154,8 +162,9 @@ export default [
     "imageUrl": "./images/9.Cordia boissieri.jpg",
     "facts": {
       "organoBeneficiado": "Sistema respiratorio",
-      "clasificacion": "Febrífuga",
-      "estadoProductor": "Nuevo León"
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Nuevo León",
+      "precioKgMxn": 499.00
     },
     "extraInfo": {
       "imageSource": "/src/images/9.Cordia boissieri.jpg"
@@ -172,8 +181,9 @@ export default [
     "imageUrl": "./images/10.Argemone mexicana.jpg",
     "facts": {
       "organoBeneficiado": "Sistema nervioso",
-      "clasificacion": "Febrífuga",
-      "estadoProductor": "Guerrero"
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Guerrero",
+      "precioKgMxn": 358.00
     },
     "extraInfo": {
       "imageSource": "/src/images/10.Argemone mexicana.jpg"
@@ -190,8 +200,9 @@ export default [
     "imageUrl": "./images/11.Nolina recurvata.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Antiácida",
-      "estadoProductor": "Yucatán"
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Yucatán",
+      "precioKgMxn": 452.00
     },
     "extraInfo": {
       "imageSource": "/src/images/11.Nolina recurvata.jpg"
@@ -208,8 +219,9 @@ export default [
     "imageUrl": "./images/12.Salvia mexicana.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Antiácida",
-      "estadoProductor": "Puebla"
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 312.00
     },
     "extraInfo": {
       "imageSource": "/src/images/12.Salvia mexicana.jpg"
@@ -226,8 +238,9 @@ export default [
     "imageUrl": "./images/13. Amphipterygium adstringens.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Astringente",
-      "estadoProductor": "Oaxaca"
+      "clasificacionPlanta": "Astringente",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 652.00
     },
     "extraInfo": {
       "imageSource": "./images/13. Amphipterygium adstringens.jpg"
@@ -244,8 +257,9 @@ export default [
     "imageUrl": "./images/14. Comarostaphylis polifolia.jpg",
     "facts": {
       "organoBeneficiado": "Piel",
-      "clasificacion": "Emoliente",
-      "estadoProductor": "Jalisco"
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Jalisco",
+      "precioKgMxn": 750.00
     },
     "extraInfo": {
       "imageSource": "./images/14. Comarostaphylis polifolia.jpg"
@@ -262,8 +276,9 @@ export default [
     "imageUrl": "./images/15. Aloysia citriodora.jpg",
     "facts": {
       "organoBeneficiado": "Sistema nervioso",
-      "clasificacion": "Emoliente",
-      "estadoProductor": "Michoacán"
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Michoacán",
+      "precioKgMxn": 280.00
     },
     "extraInfo": {
       "imageSource": "/src/images/15. Aloysia citriodora.jpg"
@@ -280,8 +295,9 @@ export default [
     "imageUrl": "./images/16. Gnaphalium spp.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Antiácida",
-      "estadoProductor": "Tamaulipas"
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Tamaulipas",
+      "precioKgMxn": 580.00
     },
     "extraInfo": {
       "imageSource": "/src/images/16. Gnaphalium spp.jpg"
@@ -298,8 +314,9 @@ export default [
     "imageUrl": "./images/17. Eysenhardtia polystachya.jpg",
     "facts": {
       "organoBeneficiado": "Sistema circulatorio",
-      "clasificacion": "Cardiotónica",
-      "estadoProductor": "Sinaloa"
+      "clasificacionPlanta": "Cardiotónica",
+      "estadoProductor": "Sinaloa",
+      "precioKgMxn": 345.00
     },
     "extraInfo": {
       "imageSource": "/src/images/17. Eysenhardtia polystachya.jpg"
@@ -316,8 +333,9 @@ export default [
     "imageUrl": "./images/18. Salvia hispanica.jpg",
     "facts": {
       "organoBeneficiado": "Sistema cardiovascular",
-      "clasificacion": "Cardiotónica",
-      "estadoProductor": "Guerrero"
+      "clasificacionPlanta": "Cardiotónica",
+      "estadoProductor": "Guerrero",
+      "precioKgMxn": 800.00
     },
     "extraInfo": {
       "imageSource": "/src/images/18. Salvia hispanica.jpg"
@@ -334,8 +352,9 @@ export default [
     "imageUrl": "./images/19. Borago officinalis.jpg",
     "facts": {
       "organoBeneficiado": "Piel",
-      "clasificacion": "Emoliente",
-      "estadoProductor": "Jalisco"
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Jalisco",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
       "imageSource": "/src/images/19. Borago officinalis.jpg"
@@ -352,8 +371,9 @@ export default [
     "imageUrl": "./images/20. Mimosa tenuiflora.jpg",
     "facts": {
       "organoBeneficiado": "Piel",
-      "clasificacion": "Emoliente",
-      "estadoProductor": "Oaxaca"
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 3200.00
     },
     "extraInfo": {
       "imageSource": "/src/images/20. Mimosa tenuiflora.jpg"
@@ -370,8 +390,9 @@ export default [
     "imageUrl": "./images/21. Tagetes erecta.jpg",
     "facts": {
       "organoBeneficiado": "Sistema respiratorio",
-      "clasificacion": "Febrífuga",
-      "estadoProductor": "Tlaxcala"
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Tlaxcala",
+      "precioKgMxn": 3100.00
     },
     "extraInfo": {
       "imageSource": "/src/images/21. Tagetes erecta.jpg"
@@ -388,8 +409,9 @@ export default [
     "imageUrl": "./images/22. Equisetum giganteum.jpg",
     "facts": {
       "organoBeneficiado": "Sistema urinario",
-      "clasificacion": "Fortalecedora",
-      "estadoProductor": "Hidalgo"
+      "clasificacionPlanta": "Fortalecedora",
+      "estadoProductor": "Hidalgo",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
       "imageSource": "./images/22. Equisetum giganteum.jpg"
@@ -406,8 +428,9 @@ export default [
     "imageUrl": "./images/23. Casimiroa edulis.jpg",
     "facts": {
       "organoBeneficiado": "Sistema digestivo",
-      "clasificacion": "Nutricional",
-      "estadoProductor": "Puebla"
+      "clasificacionPlanta": "Nutricional",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 150.00
     },
     "extraInfo": {
       "imageSource": "./images/23. Casimiroa edulis.jpg"
@@ -424,8 +447,9 @@ export default [
     "imageUrl": "./images/24. manzanilla.jpg",
     "facts": {
       "organoBeneficiado": "Sistema nervioso y digestivo",
-      "clasificacion": "Antiácida",
-      "estadoProductor": "Tlaxcala"
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Tlaxcala",
+      "precioKgMxn": 180.00
     },
     "extraInfo": {
       "imageSource": "./images/24. manzanilla.jpg"

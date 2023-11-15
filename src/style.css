@@ -26,7 +26,6 @@ body {
 
 }
 
-
 .container {
     width: 90%; /*para que sea responsive*/
     margin: 20px auto;
@@ -119,15 +118,51 @@ dt, dd {
 }
 
 button[data-testid="button-clear"]{
-  background: rgb(188, 163, 108);
-  border:7px solid rgb(188, 163, 108);
+  background: rgb(150,87,61, 0.3);
+  border:8px solid rgba(150,87,61, 0.3);
+  color:rgb(241, 217, 217);
   position: relative;
+  padding: 9 px;
+  width: 150px;
+  text-align: center;
 }
 
-.tarjeta img {
+/*.tarjeta img {
     width: 320px; /* Tamaño fijo en píxeles */
-    height: 285px;
+    /*height: 285px;
     border-radius: 5%;
-    
+    display: block;
+    text-align: center;
+*/
+
+select {
+    display:flexbox;
+    color:rgb(241, 217, 217);
+    background-color: rgb(150, 87, 61, 0.4);
+    border-color: rgb(150,87,61);
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
 }
 
+label {
+    color:rgb(241, 217, 217);
+}
+footer {
+    display:flexbox;
+    color:black;
+    background-color: rgba(150, 139, 111, 0.3);
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+
+ul {
+    display:flexbox;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
